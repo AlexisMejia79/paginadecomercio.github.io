@@ -1,0 +1,61 @@
+<!-- Archivo index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda en Línea</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#destacados">Destacados</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#acerca">Acerca de nosotros</a></li>
+        </ul>
+      </nav>
+      <h1>Mi Tienda en Línea</h1>
+      <form action="#">
+        <input type="text" placeholder="Buscar productos">
+        <button type="submit">Ir</button>
+      </form>
+    </header>
+    <main>
+      <section id="destacados">
+        <h2>Destacados</h2>
+        <div class="producto">
+          <img src="producto1.jpg" alt="Producto 1">
+          <h3>Producto 1</h3>
+          <p class="precio">$100</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="producto2.jpg" alt="Producto 2">
+          <h3>Producto 2</h3>
+          <p class="precio">$200</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="producto3.jpg" alt="Producto 3">
+          <h3>Producto 3</h3>
+          <p class="precio">$150</p>
+          <button>Añadir al carrito</button>
+        </div>
+      </section>
+      <section id="productos">
+        <h2>Todos los productos</h2>
+        <!-- Aquí irían todos los productos -->
+      </section>
+      <aside id="acerca">
+        <h2>Acerca de nosotros</h2>
+        <p>Somos una tienda en línea especializada en productos de alta calidad.</p>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; Mi Tienda en Línea</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
